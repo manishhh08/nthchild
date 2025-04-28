@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 80px 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 300px 1fr 300px;
+  /* background-color: red; */
+
+  grid-template-areas:
+    "global-message global-message global-message"
+    "navbar navbar navbar"
+    "banner banner offer1"
+    "banner banner offer2"
+    "left-side product product"
+    "recent product product"
+    "tags product product"
+    "footer footer footer";
+
+  gap: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.global-message {
+  background-color: blue;
+  grid-area: global-message;
+}
+.navbar {
+  background-color: red;
+  grid-area: navbar;
+}
+.banner {
+  /* background-image: linear-gradient(red, purple, blue); */
+  background-image: conic-gradient(red, purple, blue, red);
+  grid-area: banner;
+}
+.offer1 {
+  background-color: brown;
+  grid-area: offer1;
+}
+.offer2 {
+  background-color: purple;
+  grid-area: offer2;
+}
+.left-side {
+  background-color: skyblue;
+  grid-area: left-side;
+}
+.recent {
+  background-color: blue;
+  grid-area: recent;
+}
+.tags {
+  background-color: orangered;
+  grid-area: tags;
+}
+.product {
+  /* background-image: linear-gradient(red, yellow); */
+  background-image: radial-gradient(red, yellow);
+  grid-area: product;
+}
+.footer {
+  background-color: black;
+  grid-area: footer;
+}
