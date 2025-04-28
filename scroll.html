@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <style>
+      :root {
+        scroll-behavior: smooth;
+      }
+      section {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin-bottom: 20px;
+        color: white;
+      }
+      .gotohome {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 2rem; */
+      }
+      nav {
+        display: flex;
+        position: sticky;
+        top: 0;
+        background-color: white;
+      }
+      nav ul {
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+        justify-content: end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gotohome"><a href="#home">Go to home</a></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+      </ul>
+    </nav>
+    <section id="home">Home</section>
+    <section id="skills">Skills</section>
+    <section id="project">Project</section>
+  </body>
+</html>

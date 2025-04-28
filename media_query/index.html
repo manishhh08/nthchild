@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* media query for mobile */
+      @media (width<662px) {
+        .container {
+          width: 100%;
+          background-color: blue;
+        }
+      }
+      /* media query for tab */
+      @media (width>600px) and (width<992px) {
+        .container {
+          background-color: chartreuse;
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">Container</div>
+  </body>
+</html>
