@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+/* <!-- global message  --> */
+.global-message {
+  background: skyblue;
+  height: 2.5rem;
+}
+.global-message > div {
+  display: flex;
+  justify-content: space-between;
+}
+/* <!-- navbar  --> */
+header {
+  height: 100px;
+  background-color: blue;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  color: white;
+}
+header ul {
+  display: flex;
+  gap: 20px;
+}
+header ul > li {
+  list-style-type: none;
+  font-size: 1rem;
+}
+header img {
+  height: 3rem;
+  width: 3.7rem;
+  border-radius: 90%;
+}
+/* hero */
+.hero {
+  height: 400px;
+  background-image: url(./asset/e.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.hero > div {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-item {
+  height: 75px;
+  background-color: rgba(128, 126, 126, 0.535);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 20px;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  border: 1px solid;
+  gap: 20px;
+}
+.hero .hero-item > hr {
+  width: 100%;
+}
+.hero .hero-item .hero-description {
+  font-size: 20px;
+}
+.hero .hero-item {
+  font-size: 10px;
+}
+/* <!-- Latest Posts --> */
+.latest-post {
+  background-color: aqua;
+}
+.latest-post > div {
+  display: flex;
+  flex-direction: column;
+}
+.latest-post main {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+.articles img {
+  height: 5rem;
+  width: 4rem;
+  padding: 5px;
+}
+.latest-post .articles {
+  width: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+.latest-post .article-title {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 180px;
+}
+.latest-post .side-links {
+  width: 25%;
+}
+.articles article {
+  background-color: white;
+  display: flex;
+  gap: 5px;
+  border: 1px solid black;
+}
+.articles .article-summary {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+.article-btn {
+  background-color: orangered;
+  justify-content: last baseline;
+}
+
+.side-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.side-links .top {
+  background-color: limegreen;
+  width: 100%;
+}
+.side-links .bottom {
+  background-color: limegreen;
+  width: 100%;
+}
+/* <!-- Recommendation Destination --> */
+
+.container1 {
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  height: 600px;
+  width: 350px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  /* transition: all 0.5s ease-in;
+  transform: perspective(500px) rotateY(50deg); */
+}
+.card-image {
+  height: 200px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.card-details {
+  height: 250px;
+  width: 100%;
+  background-color: beige;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card-date {
+  color: red;
+  font-size: 20px;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.card-detailhere {
+  text-align: center;
+  font-size: 20px;
+}
+.card-footer {
+  /* background-color: rgba(232, 131, 7, 0.793); */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.card-footer div {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 5px;
+  flex-direction: column;
+  min-width: 100px;
+}
+.card-footer div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.cart-footer .footer-btn {
+  background-color: orangered;
+}
+/* <!-- Subscribe --> */
+.subscribe {
+  height: 300px;
+  background-color: lightblue;
+  padding: 10px;
+}
+.subscribe > div {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.subscribe .registration-box {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/* <!-- footer  --> */
+.footer {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  gap: 10px;
+}
+
+.recommendation {
+  height: auto;
+  background-color: green;
+  padding: 100px;
+}
+
+.recommendation .container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommendation .container main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
