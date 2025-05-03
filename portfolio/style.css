@@ -20,7 +20,6 @@
   label[for="hamburgerMenu"] {
     display: block;
   }
-
   .menu {
     visibility: hidden;
     width: 0px;
@@ -65,6 +64,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* large screen  */
+/* @media screen and (width >=992px) {
+  .project-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} */
 .wrapper {
   background: var(--body-bg);
   min-height: 100vh;
