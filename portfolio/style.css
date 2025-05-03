@@ -234,7 +234,6 @@ label[for="hamburgerMenu"] {
   border-radius: 25px;
   font-size: 20px;
   padding: 20px;
-  width: 80%;
   height: 100px;
   box-shadow: 5px 5px 5px 5px grey;
 }
@@ -244,10 +243,51 @@ label[for="hamburgerMenu"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40%;
 }
 .details .detail_bar .graduate {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/* skills section */
+.skills {
+  margin-top: 40px;
+  height: 200px;
+  width: 80%;
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.skills .skill_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  border-color: #ad8b73;
+  width: 5%;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.skills .skill_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  width: 80%;
+}
+
+.skill_bar .firstskill,
+.secondskill,
+.thirdskill,
+.fourthskill,
+.fifthskill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
