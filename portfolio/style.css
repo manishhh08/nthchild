@@ -294,12 +294,49 @@ label[for="hamburgerMenu"] {
 }
 
 /* about me section */
-
+.aboutme {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 50vh;
+  width: 100%;
+  /* background-color: aqua; */
+}
+.aboutme .grid_about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  height: 50vh;
+}
+.left_flex {
+  grid-area: left;
+  justify-content: flex-start;
+  align-items: right;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+.right_flex {
+  width: 60%;
+  background-color: blue;
+  height: 100%;
+}
+.aboutheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid orangered;
+  width: 10%;
+  margin-left: 25rem;
+}
 /* contact section */
 .contact {
   height: 100vh;
   width: 100%;
   background-color: green;
+  margin-top: 5rem;
 }
 /* footer section */
 footer {
