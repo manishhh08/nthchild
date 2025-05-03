@@ -278,7 +278,8 @@ label[for="hamburgerMenu"] {
   align-items: center;
   justify-content: space-evenly;
   margin-top: 5rem;
-  width: 80%;
+  width: 100%;
+  font-size: 20px;
 }
 
 .skill_bar .firstskill,
@@ -290,4 +291,19 @@ label[for="hamburgerMenu"] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+/* about me section */
+
+/* contact section */
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color: green;
+}
+/* footer section */
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: red;
 }
