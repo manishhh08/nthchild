@@ -302,7 +302,7 @@ label[for="hamburgerMenu"] {
   justify-content: center; */
   height: 50vh;
   width: 100%;
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 .aboutme .grid_about {
   display: flex;
@@ -320,9 +320,14 @@ label[for="hamburgerMenu"] {
   margin-left: 2rem;
   margin-bottom: 3rem;
 }
+.left_flex img {
+  height: 320px;
+  width: 300px;
+  margin-top: 1rem;
+}
 .right_flex {
   width: 60%;
-  background-color: blue;
+  /* background-color: blue; */
   height: 100%;
 }
 .aboutheader {
@@ -332,6 +337,29 @@ label[for="hamburgerMenu"] {
   border-bottom: 2px solid orangered;
   width: 10%;
   margin-left: 25rem;
+  margin-bottom: 2rem;
+}
+.aboutdetails {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 10px;
+}
+.aboutdetails .interest {
+  display: flex;
+  align-items: left;
+  /* justify-content: center; */
+  flex-direction: row;
+  margin-top: 10px;
+}
+.aboutdetails .interestsports {
+  display: flex;
+  align-items: left;
+  gap: 2rem;
+  /* justify-content: space-evenly; */
+  /* flex-direction: column; */
 }
 /* contact section */
 .contact {
