@@ -61,19 +61,6 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
-
-/* tablet screen */
-@media screen and (width >= 662px) and (width<992px) {
-  .project-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-/* large screen  */
-/* @media screen and (width >=992px) {
-  .project-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-} */
 .wrapper {
   background: var(--body-bg);
   min-height: 100vh;
@@ -420,4 +407,18 @@ footer .alllinks {
 .alllinks .sociallinks {
   display: flex;
   flex-direction: column;
+}
+/* media query here */
+
+/* tablet screen */
+@media screen and (width >= 662px) and (width<992px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* large screen  */
+@media screen and (width >1200px) {
+  .project-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
