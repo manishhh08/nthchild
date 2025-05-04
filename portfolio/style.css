@@ -191,7 +191,8 @@ header .container .menu {
   grid-area: right;
   justify-content: flex-end;
   align-items: left;
-  margin-top: -9rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 
 label[for="hamburgerMenu"] {
@@ -224,6 +225,7 @@ label[for="hamburgerMenu"] {
 .details {
   justify-content: center;
   margin-left: 9rem;
+  margin-top: 10rem;
 }
 .detail_bar {
   display: flex;
