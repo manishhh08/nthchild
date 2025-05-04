@@ -341,7 +341,7 @@ label[for="hamburgerMenu"] {
 .contact .contactme {
   height: 50vh;
   width: 100%;
-  background-color: gold;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,18 +362,42 @@ label[for="hamburgerMenu"] {
   font-size: 2em;
 }
 .contactme .contactinput {
-  /* background-color: red; */
+  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 20px;
   height: 70px;
-  width: 70pxs;
+  /* width: 70px; */
 }
 .contactme .contactinput .inputarea {
   border-radius: 30%;
   border-color: black;
+  background-color: orangered;
 }
+.contactme .contactlink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 30vh;
+  color: white;
+}
+.contactlink .linkbar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contactlink .linkbar-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 /* footer section */
 footer {
   margin-top: 10vh;
